@@ -9,5 +9,17 @@ function handleTitleClick() {
 
 }
 
+function handleMouseEnter() {
+    title.innerHTML = "Mouse is here!"
+
+}
+
+function handleMouseLeave() {
+    title.innerHTML = "Mouse is gone!"
+
+}
+
 title.addEventListener("click", handleTitleClick);
+title.addEventListener("mouseenter", handleMouseEnter);
+title.addEventListener("mouseleave", handleMouseLeave);
 
